@@ -1,0 +1,54 @@
+[
+  {
+    "id": "sample_val_0001",
+    "label": "picking up a sample object",
+    "template": "Picking up [something]",
+    "placeholders": ["a sample object"],
+    "pos_seq": [0, 2, 3],
+    "neg_seq": [
+      [1, 2, 3, 0],
+      [0, 3, 2, 1],
+      [2, 0, 1, 3],
+      [0, 2, 1, 3],
+      [1, 0, 3, 2],
+      [3, 0, 1, 2],
+      [2, 1, 0, 3],
+      [1, 3, 0, 2],
+      [0, 1, 3, 2],
+      [2, 0, 3, 1],
+      [1, 2, 0, 3],
+      [3, 1, 0, 2],
+      [0, 3, 1, 2],
+      [2, 3, 0, 1],
+      [1, 0, 2, 3],
+      [3, 2, 1, 0]
+    ],
+    "frames": 36
+  },
+  {
+    "id": "sample_val_0002",
+    "label": "placing a sample item into a sample container",
+    "template": "Putting [something] into [something]",
+    "placeholders": ["a sample item", "a sample container"],
+    "pos_seq": [1, 2, 3],
+    "neg_seq": [
+      [2, 0, 1, 3],
+      [1, 0, 3, 2],
+      [0, 3, 1, 2],
+      [1, 2, 3, 0],
+      [3, 0, 2, 1],
+      [0, 2, 1, 3],
+      [2, 1, 3, 0],
+      [3, 1, 0, 2],
+      [1, 3, 2, 0],
+      [0, 1, 3, 2],
+      [2, 3, 1, 0],
+      [3, 2, 0, 1],
+      [1, 0, 2, 3],
+      [2, 1, 0, 3],
+      [0, 3, 2, 1],
+      [3, 0, 1, 2]
+    ],
+    "frames": 44
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "id": "sample_train_0001",
+    "label": "placing a sample object onto a sample surface",
+    "template": "Placing [something] onto [something]",
+    "placeholders": ["a sample object", "a sample surface"],
+    "pos_seq": [0, 2, 3],
+    "neg_seq": [
+      [1, 2, 3, 0],
+      [0, 3, 2, 1],
+      [2, 0, 1, 3],
+      [0, 2, 1, 3],
+      [1, 0, 3, 2],
+      [3, 0, 1, 2],
+      [2, 1, 0, 3],
+      [1, 3, 0, 2],
+      [0, 1, 3, 2],
+      [2, 0, 3, 1],
+      [1, 2, 0, 3],
+      [3, 1, 0, 2],
+      [0, 3, 1, 2],
+      [2, 3, 0, 1],
+      [1, 0, 2, 3],
+      [3, 2, 1, 0]
+    ],
+    "frames": 32
+  },
+  {
+    "id": "sample_train_0002",
+    "label": "opening a sample container",
+    "template": "Opening [something]",
+    "placeholders": ["a sample container"],
+    "pos_seq": [1, 2, 3],
+    "neg_seq": [
+      [2, 0, 1, 3],
+      [1, 0, 3, 2],
+      [0, 3, 1, 2],
+      [1, 2, 3, 0],
+      [3, 0, 2, 1],
+      [0, 2, 1, 3],
+      [2, 1, 3, 0],
+      [3, 1, 0, 2],
+      [1, 3, 2, 0],
+      [0, 1, 3, 2],
+      [2, 3, 1, 0],
+      [3, 2, 0, 1],
+      [1, 0, 2, 3],
+      [2, 1, 0, 3],
+      [0, 3, 2, 1],
+      [3, 0, 1, 2]
+    ],
+    "frames": 40
+  }
+]
